@@ -24,4 +24,4 @@ opts.defaults(
     )
 )
 
-from .data import get_champ_data, get_top_data, get_picks_data
+from .data import get_champ_data, get_top_data, get_picks_data, get_name_data

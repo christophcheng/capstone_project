@@ -34,3 +34,9 @@ def get_picks_data() -> pd.DataFrame:
     """Loads the CSV containing champions picked
     """
     return pd.read_csv('picks_and_wins.csv')
+
+def get_name_data() -> pd.DataFrame:
+    """Loads the CSV containing champion names 
+    """
+    return pd.read_csv('champs.csv')
+
